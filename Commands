@@ -1,0 +1,39 @@
+Zach Ducharme 10/13/19
+
+
+
+
+
+
+ grep -i "San" Datebook
+
+
+ grep '^J' Databook
+
+
+grep '700$' Databook
+
+grep -v -e '834' Databook
+
+
+grep -E ':[0-9]+\/12\/[0-9]+' Databook
+
+
+ grep -E ':408-[0-9]{3}-[0-9]{4}:' Databook
+
+
+
+ grep '[A-Z][a-z]\{4\}, [A-Z]' Databook
+
+
+grep -E '\<.*\>[\t ]\<(K|k)' Databook
+
+ grep '[0-9]\{6\}$' Databook
+
+
+ grep -E '(L|l)incoln' Databook
+
+
+
+
+
